@@ -1,0 +1,51 @@
+
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="assets/images/MonkeesLogo.gif" style="width: 100px"></a>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="nav navbar-nav ml-auto nav-text ">
+            <li class="nav-item ">
+              <a class="nav-link text-danger" href="#" routerLink="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="#" routerLink="/band">Band</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="#" routerLink="/music">Music</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="#" routerLink="/video">Video</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-danger" href="#" routerLink="/photos">Photos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-danger" href="#" routerLink="/tours">Tours</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-danger" href="#" routerLink="/contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+    <div class="btn-group" dropdown>
+        <button dropdownToggle type="button" class="btn btn-primary dropdown-toggle">
+          Button dropdown <span class="caret"></span>
+        </button>
+        <ul *dropdownMenu class="dropdown-menu" role="menu">
+          <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Something else here</a></li>
+          <li class="divider dropdown-divider"></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
+          </li>
+        </ul>
+      </div>
